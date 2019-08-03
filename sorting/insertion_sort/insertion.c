@@ -1,3 +1,15 @@
+/**
+ * Insertion Sort
+ * https://github.com/stephenfeagin/algorithms
+ * 
+ * insertion.c takes an array of integers from stdin and prints the output of sorting its elements
+ * 
+ * Example usage:
+ * $ make insertion
+ * $ ./insertion 5 6 2 1 4 3
+ * 1 2 3 4 5 6
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
