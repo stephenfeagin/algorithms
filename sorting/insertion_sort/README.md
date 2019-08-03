@@ -93,6 +93,8 @@ for i from 1 to n:
 
 ## Implementation
 
+- [C](insertion.c)
+
 ## References
 
 - [CS50x video](https://www.youtube.com/watch?v=O0VbBkUvriI)
