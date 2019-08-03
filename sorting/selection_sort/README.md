@@ -9,8 +9,8 @@ index of the unsorted portion, and repeat until the entire array is sorted.
 
 ```
 for i from 0 to n:
-    min_value_index = first index of the unsorted portion
-    for j from min_value_index + 1 to n:
+    min_value_index = 0
+    for j from i to n:
         if array[j] < array[min_value_index]:
             min_value_index = j
     swap array[i], array[min_value_index]
@@ -24,3 +24,7 @@ for i from 0 to n:
 ## Implementation
 
 - [C](selection.c)
+
+## References
+
+- [CS50x video](https://www.youtube.com/watch?v=3hH8kTHFw2A)
