@@ -10,7 +10,7 @@ index of the unsorted portion, and repeat until the entire array is sorted.
 ```
 for i from 0 to n:
     min_value_index = 0
-    for j from i to n:
+    for j from i+1 to n:
         if array[j] < array[min_value_index]:
             min_value_index = j
     swap array[i], array[min_value_index]
